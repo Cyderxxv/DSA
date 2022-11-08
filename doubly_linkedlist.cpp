@@ -253,6 +253,32 @@ bool addAfter(DList*& L, int data, int val) {
 	return false;
 }
 
+int countElements(DList* L) {
+	DNODE* temp = L -> pHead;
+	int count = 0;
+	while(temp) {
+		count++;
+		temp = temp -> pNext;
+	}
+	return count;
+}
+
+DList* reverseList(DList* L) {
+	DNODE* temp = L -> pHead;	
+	DNODE* head = createNode(L -> pHead -> key);
+	DList* reverse = createList(head);
+	temp = temp -> pNext;
+	while(temp) {
+		addHead(reverse, temp -> key);
+		temp = temp -> pNext;
+	}
+	return reverse;
+}
+
+void removeDuplicate(DList*& L) {
+
+}
+
 int main() {
     DList* L;
     printList(L);
@@ -263,7 +289,7 @@ int main() {
 
     // for(int i = 0; i < 10; i++) {
     //     addTail(L, i + 1);
-    // }
+    // } q
     // removeHead(L);
     // removeTail(L);
     // removeBefore(L, 2);
