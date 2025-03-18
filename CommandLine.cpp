@@ -28,10 +28,9 @@ void Command_line1(int argc, char* argv[])
 
 	int* a = new int[n];
 	int* b = new int[n];
-	GenerateData(a, n, outputParam);
-	b = Copy_arr(a, n);
 	float running_time = 0;
 	ReadFile_ModeA(argv, a, n);
+	b = Copy_arr(a, n);
 	clock_t tstart, tend;
 	tstart = clock();
 	Sorting_Algorithm_runtime( a, n, SortMode );
@@ -43,7 +42,6 @@ void Command_line1(int argc, char* argv[])
 	delete[] a;
 	delete[] b;
 }
-
 
 void Command_line2(int argc, char* argv[])
 {
