@@ -1,6 +1,5 @@
 #include"SortingAlgorithms.h"
 
-
 int ConvertToNum(int i, char* argv[]) {
 	if (i >= 5 && i <= 6) {
 		if (strcmp(argv[1], "-a") == 0) {
@@ -95,56 +94,56 @@ int CharSortToNum(const char* ss)
 void Sorting_Algorithm_runtime(int* a, int n, int SortMode)
 {
 	switch (SortMode) {
-	case 1: {
-		SelectionSort(a, n);
-		break;
-	}
-	case 2: {
-		InsertionSort(a, n);
-		break;
-	}
-	case 3: {
-        BubbleSort(a, n);
-		break;
-	}
-	case 4: {
-		ShakerSort(a, n);
-		break;
-	}
-	case 5: {
-		ShellSort(a, n);
-		break;
-	}
-	case 6:
-	{
-        HeapSort(a, n);
-		break;
-	}
-	case 7:
-	{
-		MergeSort_Original(a, n);
-		break;
-	}
-	case 8:
-	{
-		QuickSort(a, n);
-		break;
-	}
-	case 9:
-	{
-		CountingSort(a, n);
-		break;
-	}
-	case 10:
-	{
-		RadixSort(a, n);
-		break;
-	}
-	case 11:
-	{
-        FlashSort(a, n);
-		break;
-	}
+		case 1: {
+			SelectionSort(a, n);
+			break;
+		}
+		case 2: {
+			InsertionSort(a, n);
+			break;
+		}
+		case 3: {
+			BubbleSort(a, n);
+			break;
+		}
+		case 4: {
+			ShakerSort(a, n);
+			break;
+		}
+		case 5: {
+			ShellSort(a, n);
+			break;
+		}
+		case 6:
+		{
+			HeapSort(a, n);
+			break;
+		}
+		case 7:
+		{
+			MergeSort_Original(a, n);
+			break;
+		}
+		case 8:
+		{
+			QuickSort(a, n);
+			break;
+		}
+		case 9:
+		{
+			CountingSort(a, n);
+			break;
+		}
+		case 10:
+		{
+			RadixSort(a, n);
+			break;
+		}
+		case 11:
+		{
+			FlashSort(a, n);
+			break;
+		}
 	}
 
 }
@@ -152,56 +151,56 @@ void Sorting_Algorithm_runtime(int* a, int n, int SortMode)
 void Sorting_Algorithm(int* a, int n, int SortMode, unsigned long long& count_compare)
 {
 	switch (SortMode) {
-	case 1: {
-		SelectionSort_CC(a, n, count_compare);
-		break;
-	}
-	case 2: {
-		InsertionSort_CC(a, n, count_compare);
-		break;
-	}
-	case 3: {
-		BubbleSort_CC(a, n, count_compare);
-		break;
-	}
-	case 4: {
-		ShakerSort_CC(a, n, count_compare);
-		break;
-	}
-	case 5: {
-		ShellSort_CC(a, n, count_compare);
-		break;
-	}
-	case 6:
-	{
-        HeapSort_CC(a, n, count_compare);
-		break;
-	}
-	case 7:
-	{
-		MergeSort_CC(a, n, count_compare);
-		break;
-	}
-	case 8:
-	{
-		QuickSort_CC(a, n, count_compare);
-		break;
-	}
-	case 9:
-	{
-		CountingSort_CC(a, n, count_compare);
-		break;
-	}
-	case 10:
-	{
-		RadixSort_CC(a, n, count_compare);
-		break;
-	}
-	case 11:
-	{
-		FlashSort_CC(a, n, count_compare);
-		break;
-	}
+		case 1: {
+			SelectionSort_CC(a, n, count_compare);
+			break;
+		}
+		case 2: {
+			InsertionSort_CC(a, n, count_compare);
+			break;
+		}
+		case 3: {
+			BubbleSort_CC(a, n, count_compare);
+			break;
+		}
+		case 4: {
+			ShakerSort_CC(a, n, count_compare);
+			break;
+		}
+		case 5: {
+			ShellSort_CC(a, n, count_compare);
+			break;
+		}
+		case 6:
+		{
+			HeapSort_CC(a, n, count_compare);
+			break;
+		}
+		case 7:
+		{
+			MergeSort_CC(a, n, count_compare);
+			break;
+		}
+		case 8:
+		{
+			QuickSort_CC(a, n, count_compare);
+			break;
+		}
+		case 9:
+		{
+			CountingSort_CC(a, n, count_compare);
+			break;
+		}
+		case 10:
+		{
+			RadixSort_CC(a, n, count_compare);
+			break;
+		}
+		case 11:
+		{
+			FlashSort_CC(a, n, count_compare);
+			break;
+		}
 	}
 
 }

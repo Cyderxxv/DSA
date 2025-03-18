@@ -1,6 +1,6 @@
 #include"SortingAlgorithms.h"
 
-
+// a.exe -a radix-sort input.txt -both
 void Command_line1(int argc, char* argv[])
 {
 	cout << "Algorithm: ";

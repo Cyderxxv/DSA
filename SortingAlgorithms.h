@@ -81,7 +81,7 @@ int ReadFileandReturnModeA(char* file_input[3]);
 int ReadFileandReturnModeC(char* file_input[4]);
 void ReadFile_ModeC(char* file_input[4], int* a, int n);
 
-//COMMAND LINE
+//COMMAND LINE DEFINITION
 void Command_line1(int argc, char* argv[]);
 void Command_line3(int argc, char* argv[]);
 void Command_line2(int argc, char* argv[]);

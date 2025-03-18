@@ -4,56 +4,56 @@
 void PrintSortingMode(int SortMode)
 {
 	switch (SortMode) {
-	case 1: {
-		cout << "Selection Sort";
-		break;
-	}
-	case 2: {
-		cout << "Insertion Sort";
-		break;
-	}
-	case 3: {
-		cout << "Bubble Sort";
-		break;
-	}
-	case 4: {
-		cout << "Shaker Sort";
-		break;
-	}
-	case 5: {
-		cout << "Shell Sort";
-		break;
-	}
-	case 6:
-	{
-		cout << "Heap Sort";
-		break;
-	}
-	case 7:
-	{
-		cout << "Merge Sort";
-		break;
-	}
-	case 8:
-	{
-		cout << "Quick Sort";
-		break;
-	}
-	case 9:
-	{
-		cout << "Counting Sort";
-		break;
-	}
-	case 10:
-	{
-		cout << "Radix Sort";
-		break;
-	}
-	case 11:
-	{
-		cout << "Flash Sort";
-		break;
-	}
+		case 1: {
+			cout << "Selection Sort";
+			break;
+		}
+		case 2: {
+			cout << "Insertion Sort";
+			break;
+		}
+		case 3: {
+			cout << "Bubble Sort";
+			break;
+		}
+		case 4: {
+			cout << "Shaker Sort";
+			break;
+		}
+		case 5: {
+			cout << "Shell Sort";
+			break;
+		}
+		case 6:
+		{
+			cout << "Heap Sort";
+			break;
+		}
+		case 7:
+		{
+			cout << "Merge Sort";
+			break;
+		}
+		case 8:
+		{
+			cout << "Quick Sort";
+			break;
+		}
+		case 9:
+		{
+			cout << "Counting Sort";
+			break;
+		}
+		case 10:
+		{
+			cout << "Radix Sort";
+			break;
+		}
+		case 11:
+		{
+			cout << "Flash Sort";
+			break;
+		}
 	}
 
 }
@@ -129,22 +129,22 @@ int* Copy_arr(int* a, int n)
 
 void PrintCMD(int Output_Param, float running_time, unsigned long long count_compare) {
 	switch (Output_Param) {
-	case 2: {
-		cout << "----------------------" << endl;
-		cout << "Running time: " << running_time << " ms" << endl;
-		cout << "Comparisons: " << count_compare << endl;
-		break;
-	}
-	case 1: {
-		cout << "----------------------" << endl;
-		cout << "Running time: " << running_time << " ms" << endl;
-		break;
-	}
-	case 0: {
-		cout << "----------------------" << endl;
-		cout << "Comparisons: " << count_compare << endl;
-		break;
-	}
+		case 2: {
+			cout << "----------------------" << endl;
+			cout << "Running time: " << running_time << " ms" << endl;
+			cout << "Comparisons: " << count_compare << endl;
+			break;
+		}
+		case 1: {
+			cout << "----------------------" << endl;
+			cout << "Running time: " << running_time << " ms" << endl;
+			break;
+		}
+		case 0: {
+			cout << "----------------------" << endl;
+			cout << "Comparisons: " << count_compare << endl;
+			break;
+		}
 	}
 }
 

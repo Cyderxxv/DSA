@@ -4,18 +4,18 @@ int main(int argc, char* argv[])
 { 
 	int Convert_element = ConvertToNum(argc, argv);
 	if (Convert_element == -1) 
-	{
-		cout << " Error! Check input parameter again" << endl;
-		return 0;
-	}
+		{
+			cout << " Error! Check input parameter again" << endl;
+			return 0;
+		}
 	if (strcmp(argv[1], "-a") == 0) 
-	{
-		cout << "ALGORITHM MODE" << endl;
-	}
+		{
+			cout << "ALGORITHM MODE" << endl;
+		}
 	else 
-	{
-		cout << "COMPARISONS MODE" << endl;
-	}
+		{
+			cout << "COMPARISONS MODE" << endl;
+		}
 	switch (Convert_element)
 		{
 			case 1:{

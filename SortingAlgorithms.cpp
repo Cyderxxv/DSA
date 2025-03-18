@@ -21,10 +21,10 @@ void HeapBuild(int* arr, int n, int i)
         largest = r; 
   
     if (largest != i) 
-    { 
-        Swap(arr[i], arr[largest]); 
-        HeapBuild(arr, n, largest); 
-    } 
+		{ 
+			Swap(arr[i], arr[largest]); 
+			HeapBuild(arr, n, largest); 
+		} 
 } 
 
 void HeapSort(int* arr, int n) 
@@ -33,10 +33,10 @@ void HeapSort(int* arr, int n)
         HeapBuild(arr, n, i); 
   
     for (int i=n-1; i>0; i--) 
-    { 
-        Swap(arr[0], arr[i]);  
-        HeapBuild(arr, i, 0); 
-    } 
+		{ 
+			Swap(arr[0], arr[i]);  
+			HeapBuild(arr, i, 0); 
+		} 
 } 
 
 void HeapBuild_CC(int* a, int n, int i, unsigned long long& count_compare) {
@@ -476,7 +476,6 @@ void ShakerSort(int* a, int n) {
 //SHELL SORT
 void ShellSort(int* a, int n)
 {
-
 	int inter, i, j, temp;
 	for (inter = n / 2; inter > 0; inter /= 2)
 	{
